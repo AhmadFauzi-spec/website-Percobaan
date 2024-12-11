@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "sono", sans-serif;
 }
 
 .navbar {
@@ -25,10 +25,10 @@ body {
 /* mengedit gambar pada hero */
 .hero-section-custom {
   position: relative;
-  background: url("./foto/fotoo-Photoroom\ \(1\).png") center center/cover no-repeat;
+  background: url("./foto/fotoo-Photoroom.png") center center/cover no-repeat;
   height: 600px;
   margin: 65px 8px 8px 8px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .hero-section .overlay {
@@ -46,10 +46,13 @@ body {
 
 .hero-section h1 {
   font-size: 3.5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .hero-section p {
   font-size: 1.5rem;
+  font-family: poppins;
+  color: rgba(251, 255, 0, 0.5);
 }
 
 .letter-spacing-custom-5 {
@@ -66,14 +69,131 @@ body {
   transform: translateY(-50%);
 }
 
+/* Konten dengan 2 Kolom */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10%;
+  margin-bottom: 30px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.img {
+  width:75%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Styling untuk teks */
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #000000;
+  text-align: center;
+}
+
+
+
+/* Responsif: Menyusun kolom menjadi satu di layar kecil */
+@media (max-width: 768px) {
+  .content {
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .column {
+      margin-bottom: 20px;
+  }
+}
+
+/* Styling untuk bagian fasilitas */
+.facilities {
+  padding: 50px 10%;
+  text-align: center;
+  background-color: #535242b9;
+  margin-top: 30px;
+}
+
+.facilities h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.facility-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.facility {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.facility:hover {
+  transform: scale(1.05);
+}
+
+.facility i {
+  color: #fff; /* Warna ikon putih */
+  background-color: #4CAF50; /* Latar belakang hijau untuk simbol */
+  border-radius: 50%; /* Membuat ikon bulat */
+  padding: 20px; /* Menambahkan jarak di sekitar ikon */
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  color: #000000;
+}
+
+/* Responsif: Menyusun kolom menjadi satu di layar kecil */
+@media (max-width: 768px) {
+  .facility-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .facility {
+      width: 80%;
+      margin-bottom: 20px;
+  }
+}
+
 .card {
   /* border: none; */
   border-radius: 15px;
 }
 
+
 .card img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  height: 150px;
+}
+
+.card-body p {
+  text-align: left;
+  font-size: 15px;
 }
 
 .container-fluid.dest-box-detail {
@@ -110,7 +230,17 @@ body {
 }
 
 footer {
-  background-color: #000;
+  background-color: #000000;
+}
+
+footer .mt-3 {
+  color: white;
+  text-align: left;
+}
+
+footer p {
+  color: white;
+  text-align: left;
 }
 
 footer .input-group {
@@ -130,6 +260,10 @@ footer .input-group .btn {
   border: none;
 }
 
+footer .fa-brands {
+  font-size: 1.5rem;
+}
+
 footer .fab {
   font-size: 1.5rem;
 }
@@ -140,5 +274,5 @@ footer a.text-white:hover {
 }
 
 footer .border-top {
-  border-color: rgba(73, 37, 37, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
 }

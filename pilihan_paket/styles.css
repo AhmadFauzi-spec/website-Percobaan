@@ -1,0 +1,238 @@
+body {
+    font-family: "sono", sans-serif;
+  }
+  
+  .navbar {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar-brand {
+    font-family: "Sono", sans-serif;
+    font-size: 15px;
+  }
+  
+  .hero-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+  }
+  .nabar-nav {
+    display: flex;
+    justify-items: center;
+  }
+
+  
+  body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.paket-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;  /* Menampilkan paket dalam satu kolom */
+    gap: 30px;
+    align-items: center;  /* Menyusun paket di tengah */
+}
+
+.paket {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;  /* Maksimal lebar paket */
+    margin-bottom: 20px;
+}
+
+.paket-content {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Kotak untuk gambar */
+.paket-gambar {
+    flex: 1;
+    border: 2px solid #ddd; /* Menambahkan border pada kotak gambar */
+    border-radius: 8px;
+    overflow: hidden; /* Memastikan gambar tidak keluar dari kotak */
+}
+
+.paket-gambar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* Kotak untuk keterangan */
+.paket-keterangan {
+    flex: 1;
+    border: 2px solid #ddd; /* Menambahkan border pada kotak keterangan */
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.paket-keterangan h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.paket-keterangan p {
+    font-size: 1em;
+    color:#000000;
+}
+
+/* Fasilitas dan harga */
+.paket-fasilitas {
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.paket-fasilitas h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.paket-fasilitas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.paket-fasilitas ul li {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.paket-harga {
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
+
+.paket-harga h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.booking {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.whatsapp {
+    text-align: center;
+    text-decoration: none;
+}
+
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+
+.whatsapp-button i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+footer {
+    background-color: #000000;
+  }
+  
+  footer .mt-3 {
+    color: white;
+    text-align: left;
+  }
+  
+  footer p {
+    color: white;
+    text-align: left;
+  }
+  
+  footer .input-group {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  footer .input-group .form-control {
+    border-radius: 0;
+    padding: 0.75rem;
+  }
+  
+  footer .input-group .btn {
+    border-radius: 0;
+    padding: 0.75rem 1rem;
+    background-color: #007bff;
+    border: none;
+  }
+  
+  footer .fa-brands {
+    font-size: 1.5rem;
+  }
+  
+  footer .fab {
+    font-size: 1.5rem;
+  }
+  
+  footer a.text-white:hover {
+    text-decoration: none;
+    color: #f8f9fa;
+  }
+  
+  footer .border-top {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  
